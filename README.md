@@ -1,1 +1,3 @@
-# recipe_book
+# Recipe Book Project
+
+## Responsive Web Design Project
