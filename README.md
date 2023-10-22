@@ -1,10 +1,10 @@
 # Recipe Book Project
 
 ## How To Run This Project: 
-Copy/clone this project to your device
-Run npm install
-Run npm start to run the local lite-server
-View it in your localhost browser
+### Copy/clone this project to your device
+### Run npm install
+### Run npm start to run the local lite-server
+### View it in your localhost browser
 
 ## Responsive Web Design Project using Materialize CSS, HTML, and JS
 
