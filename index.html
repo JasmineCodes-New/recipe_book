@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/materialize-css@1.0.0/dist/css/materialize.min.css">
+    <style>
+        .card-content {
+            height: 100px;
+            /* Set the desired height for all card contents */
+            overflow: hidden;
+            /* Hide content that overflows the fixed height */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper light-blue lighten-1" style="background-color: #F1F1F1;">
+            <a href="#" class="brand-logo center">Recipe Book</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- Recipe Cards -->
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Mexican-Chicken-Green-Beans.jpg" alt="Recipe 1">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Creamy Cilantro Chicken</span>
+                        <p>with Toasted Pepita Rice & Green Beans</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="pages/recipe1.html">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Honey-Ginger-Shrimp.jpg" alt="Recipe 2">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Honey-Ginger Shrimp & Rice</span>
+                        <p>with Cucumbers & Radishes</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="pages/recipe2.html">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Miso-Mushroom-Rice-Bowl.jpg" alt="Recipe 2">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Miso Mushroom & Brown Rice Bowls</span>
+                        <p>with Spicy Mayo & Fried Eggs</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="pages/recipe3.html">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Add more recipe cards as needed -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/materialize-css@1.0.0/dist/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
